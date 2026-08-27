@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-surface: #FFFFFF;
+  --color-brand-primary: #333333;
+  --color-brand-secondary: #555555;
+  --color-brand-deep: #222222;
+  --color-whatsapp: #25D366;
+  --font-serif: "Cormorant Garamond", serif;
+  --font-sans: "Inter", sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-brand-surface text-brand-primary font-sans;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif text-brand-primary;
+  }
+  p {
+    @apply text-brand-secondary leading-relaxed;
+  }
+  /* Remove scrollbar for cleaner look if desired, or leave default */
+}

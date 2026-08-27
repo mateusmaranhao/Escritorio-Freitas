@@ -1,0 +1,33 @@
+# Escritório Freitas — Advogados Associados
+
+## Descrição
+Escritório de Advocacia especializado na proteção jurídica de empresários e condomínios, com mais de 10 anos de experiência. Atendendo em Salto de Pirapora, Sorocaba e região.
+
+## Localização
+R. Maximiano Fidelis, 45 - Centro
+Salto de Pirapora - SP
+18160-041
+
+## Regiões Atendidas
+- Salto de Pirapora
+- Sorocaba
+- Região
+
+## Áreas de Atuação
+1. Direito Trabalhista (Orientação jurídica para relações de trabalho, prevenção de conflitos e questões trabalhistas envolvendo empresas e trabalhadores)
+2. Direito Previdenciário (Atuação em questões relacionadas à Previdência Social, benefícios previdenciários e orientação jurídica)
+3. Direito Imobiliário (Assessoria jurídica em questões relacionadas a imóveis, contratos, relações condominiais)
+4. Direito Empresarial (Orientação jurídica para empresas e empresários em decisões, contratos, relações comerciais)
+
+## Contato Oficial
+Telefone / WhatsApp: (15) 99666-2831
+
+## Estrutura do Site
+- Início: /
+- Sobre o Escritório: /sobre
+- Serviços: /servicos
+- Direito Trabalhista: /servicos/direito-trabalhista
+- Direito Previdenciário: /servicos/direito-previdenciario
+- Direito Imobiliário: /servicos/direito-imobiliario
+- Direito Empresarial: /servicos/direito-empresarial
+- Contato: /contato
