@@ -146,6 +146,9 @@ export function Home() {
       <section className="py-24 px-6 lg:px-20 bg-brand-surface border-b border-brand-primary/10">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start md:items-end gap-12">
           <div className="max-w-2xl">
+            <span className="font-sans text-sm uppercase tracking-widest text-brand-secondary block mb-6">
+              Nossa Trajetória
+            </span>
             <h3 className="font-serif text-3xl md:text-5xl text-brand-primary mb-6 leading-tight">
               Mais de 10 anos de experiência na advocacia
             </h3>
@@ -160,76 +163,77 @@ export function Home() {
         </div>
       </section>
 
-      {/* 14. HOME — JURÍDICO EMPRESARIAL PREVENTIVO */}
-      <section className="py-32 px-6 lg:px-20 bg-brand-surface">
+      {/* 14. HOME — DO PROBLEMA AO VALOR (Mergindo Preventivo e Como Atuamos) */}
+      <section className="py-32 px-6 lg:px-20 bg-brand-deep text-brand-surface">
         <div className="max-w-7xl mx-auto">
           {/* Cabeçalho da Seção */}
           <div className="max-w-3xl mb-20">
-            <span className="font-sans text-sm uppercase tracking-widest text-brand-secondary block mb-6">
-              Jurídico Empresarial Preventivo
+            <span className="font-sans text-sm uppercase tracking-widest text-brand-surface/80 block mb-6">
+              Advocacia Estratégica & Preventiva
             </span>
-            <h3 className="font-serif text-4xl md:text-5xl text-brand-primary leading-tight mb-8">
+            <h3 className="font-serif text-4xl md:text-5xl text-white leading-tight mb-8">
               Sua empresa não precisa de um advogado apenas quando o problema aparece.
             </h3>
-            <div className="font-sans text-lg text-brand-secondary leading-relaxed space-y-4">
+            <div className="font-sans text-lg text-brand-surface/90 leading-relaxed space-y-4">
               <p>
-                Empresas que crescem tomam decisões todos os dias. Contratam, demitem, assinam contratos, negociam com fornecedores, admitem sócios e expandem suas operações. Cada uma dessas decisões pode criar, ou evitar, um passivo.
+                Decisões diárias criam passivos ou previnem conflitos. Quando o jurídico entra apenas no momento da crise, os custos já foram definidos.
               </p>
               <p>
-                Quando o jurídico entra apenas depois que o problema acontece, boa parte do custo já foi definida por terceiros. A assessoria jurídica preventiva muda essa lógica: antecipa riscos, orienta decisões e coloca a segurança jurídica dentro da rotina da empresa.
+                Nossa atuação inverte essa lógica: entendemos a sua operação para antecipar riscos, trazendo previsibilidade e transformando rotinas em passos seguros.
               </p>
             </div>
           </div>
 
-          {/* Cards Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-brand-primary/10 mb-20">
+          {/* Cards Grid - Do Problema ao Valor */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-white/10 mb-20">
             {/* Card 01 */}
-            <div className="bg-brand-surface p-12 lg:p-16 group hover:bg-black/5 transition-colors duration-500">
-              <span className="text-[11px] font-sans uppercase tracking-widest text-brand-secondary mb-4 block">01</span>
-              <h4 className="font-serif text-2xl text-brand-primary mb-4">Contratações e desligamentos</h4>
-              <p className="font-sans text-brand-secondary leading-relaxed">
-                Decisões trabalhistas tomadas no improviso podem custar caro. Uma contratação mal estruturada ou um desligamento conduzido sem orientação pode se transformar, anos depois, em uma reclamação trabalhista.
+            <div className="bg-brand-deep p-12 lg:p-16 group hover:bg-white/5 transition-colors duration-500">
+              <span className="text-[11px] font-sans uppercase tracking-widest text-brand-surface/70 mb-4 block">01 — Relações de Trabalho</span>
+              <h4 className="font-serif text-2xl text-white mb-6">Contratações e Desligamentos</h4>
+              <p className="font-sans text-brand-surface/90 leading-relaxed">
+                <strong className="font-medium text-white">O Risco:</strong> Decisões trabalhistas tomadas no improviso geram passivos altos no futuro.<br/>
+                <strong className="font-medium text-white mt-3 block">Nosso Valor:</strong> Estruturamos rotinas preventivas que reduzem custos e garantem rescisões sem surpresas.
               </p>
             </div>
             
             {/* Card 02 */}
-            <div className="bg-brand-surface p-12 lg:p-16 group hover:bg-black/5 transition-colors duration-500">
-              <span className="text-[11px] font-sans uppercase tracking-widest text-brand-secondary mb-4 block">02</span>
-              <h4 className="font-serif text-2xl text-brand-primary mb-4">Contratos sem análise jurídica</h4>
-              <p className="font-sans text-brand-secondary leading-relaxed">
-                Assinar rápido pode significar assumir riscos por anos. Cláusulas desequilibradas, multas excessivas, garantias insuficientes ou obrigações que passam despercebidas podem comprometer uma relação comercial antes mesmo de ela começar.
+            <div className="bg-brand-deep p-12 lg:p-16 group hover:bg-white/5 transition-colors duration-500">
+              <span className="text-[11px] font-sans uppercase tracking-widest text-brand-surface/70 mb-4 block">02 — Segurança Comercial</span>
+              <h4 className="font-serif text-2xl text-white mb-6">Análise e Formalização</h4>
+              <p className="font-sans text-brand-surface/90 leading-relaxed">
+                <strong className="font-medium text-white">O Risco:</strong> Assinar rápido é assumir obrigações cegas e cláusulas desequilibradas.<br/>
+                <strong className="font-medium text-white mt-3 block">Nosso Valor:</strong> Transformamos acordos verbais em documentos robustos, protegendo sua operação comercial e garantindo previsibilidade.
               </p>
             </div>
 
             {/* Card 03 */}
-            <div className="bg-brand-surface p-12 lg:p-16 group hover:bg-black/5 transition-colors duration-500">
-              <span className="text-[11px] font-sans uppercase tracking-widest text-brand-secondary mb-4 block">03</span>
-              <h4 className="font-serif text-2xl text-brand-primary mb-4">Entrada e saída de sócios</h4>
-              <p className="font-sans text-brand-secondary leading-relaxed">
-                O melhor momento para definir as regras da sociedade é antes do conflito. Participação societária, responsabilidades, distribuição de resultados e regras para entrada e saída precisam estar claras. Sem isso, decisões simples podem se transformar em disputas complexas.
+            <div className="bg-brand-deep p-12 lg:p-16 group hover:bg-white/5 transition-colors duration-500">
+              <span className="text-[11px] font-sans uppercase tracking-widest text-brand-surface/70 mb-4 block">03 — Estruturação do Negócio</span>
+              <h4 className="font-serif text-2xl text-white mb-6">Regras Societárias Claras</h4>
+              <p className="font-sans text-brand-surface/90 leading-relaxed">
+                <strong className="font-medium text-white">O Risco:</strong> Crescimento desorganizado gera disputas complexas entre sócios.<br/>
+                <strong className="font-medium text-white mt-3 block">Nosso Valor:</strong> Definimos regras claras de participação antes do conflito, acompanhando a evolução do faturamento da empresa.
               </p>
             </div>
 
             {/* Card 04 */}
-            <div className="bg-brand-surface p-12 lg:p-16 group hover:bg-black/5 transition-colors duration-500">
-              <span className="text-[11px] font-sans uppercase tracking-widest text-brand-secondary mb-4 block">04</span>
-              <h4 className="font-serif text-2xl text-brand-primary mb-4">Crescimento sem estrutura jurídica</h4>
-              <p className="font-sans text-brand-secondary leading-relaxed">
-                Sua empresa cresceu. A estrutura jurídica cresceu junto? Mais faturamento, funcionários, contratos e operações também significam novos riscos. O crescimento precisa ser acompanhado por uma estrutura societária, contratual e trabalhista compatível com o novo momento da empresa.
+            <div className="bg-brand-deep p-12 lg:p-16 group hover:bg-white/5 transition-colors duration-500">
+              <span className="text-[11px] font-sans uppercase tracking-widest text-brand-surface/70 mb-4 block">04 — Atendimento Sob Medida</span>
+              <h4 className="font-serif text-2xl text-white mb-6">Especialistas e Previsibilidade</h4>
+              <p className="font-sans text-brand-surface/90 leading-relaxed">
+                <strong className="font-medium text-white">O Risco:</strong> Soluções jurídicas engessadas que desconhecem sua realidade.<br/>
+                <strong className="font-medium text-white mt-3 block">Nosso Valor:</strong> Proximidade para entender o contexto antes de agir, com escopo e honorários definidos previamente, sem surpresas.
               </p>
             </div>
           </div>
 
           {/* Fechamento */}
-          <div className="max-w-3xl">
-            <h4 className="font-serif text-3xl text-brand-primary mb-6 leading-tight">
+          <div className="w-full flex flex-col md:flex-row items-start md:items-center justify-between gap-8 border-t border-brand-surface/10 pt-12">
+            <h4 className="font-serif text-2xl md:text-3xl text-white leading-tight max-w-2xl">
               O jurídico deve participar da decisão — não apenas da solução.
             </h4>
-            <p className="font-sans text-lg text-brand-secondary leading-relaxed mb-8">
-              Assessoria jurídica preventiva significa ter orientação especializada antes de assinar, contratar, negociar ou tomar decisões que possam impactar o futuro da empresa.
-            </p>
-            <Link to="/servicos/direito-empresarial" className="inline-flex items-center gap-4 font-sans text-[13px] uppercase tracking-widest text-brand-primary hover:gap-6 transition-all duration-300">
-              Conheça nossa assessoria jurídica empresarial <span className="text-xl">→</span>
+            <Link to="/contato" className="inline-flex items-center gap-4 font-sans text-[13px] uppercase tracking-widest text-white hover:gap-6 transition-all duration-300 shrink-0">
+              Fale com nossa equipe <span className="text-xl">→</span>
             </Link>
           </div>
         </div>
@@ -239,6 +243,9 @@ export function Home() {
       <section className="py-32 px-6 lg:px-20 bg-black/5">
         <div className="max-w-7xl mx-auto">
           <div className="mb-20 max-w-3xl">
+            <span className="font-sans text-sm uppercase tracking-widest text-brand-secondary block mb-6">
+              Nossa Especialidade
+            </span>
             <h3 className="font-serif text-4xl md:text-5xl text-brand-primary leading-tight mb-6">
               Áreas de atuação
             </h3>
@@ -303,135 +310,81 @@ export function Home() {
         </div>
       </section>
 
-      {/* 16. HOME — FOCO EM EMPRESAS E CONDOMÍNIOS */}
+      {/* 16. HOME — NOSSA ESSÊNCIA */}
       <section className="py-32 px-6 lg:px-20 bg-brand-surface">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-20">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-20">
+          {/* Coluna Esquerda: Essência e Propósito */}
+          <div className="lg:col-span-6 flex flex-col gap-16">
             <div>
+              <span className="font-sans text-sm uppercase tracking-widest text-brand-secondary block mb-6">
+                Nossa Essência
+              </span>
               <h3 className="font-serif text-4xl md:text-5xl text-brand-primary leading-tight mb-8">
-                Segurança jurídica para quem precisa tomar decisões.
+                Uma advocacia estratégica começa pela forma como escolhemos atuar.
               </h3>
-              <p className="font-sans text-lg text-brand-secondary leading-relaxed">
-                Empresas e condomínios lidam diariamente com contratos, relações de trabalho, patrimônio, responsabilidades e decisões que exigem atenção jurídica. O Escritório Freitas oferece orientação para ajudar seus clientes a compreender riscos, possibilidades e caminhos jurídicos.
-              </p>
-            </div>
-            
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-12">
-              <div>
-                <h4 className="font-serif text-2xl text-brand-primary mb-6 pb-4 border-b border-brand-primary/10">Para empresas</h4>
-                <ul className="flex flex-col gap-3 font-sans text-brand-secondary">
-                  <li className="flex items-start gap-2"><span className="text-brand-primary mt-1">•</span> orientação jurídica</li>
-                  <li className="flex items-start gap-2"><span className="text-brand-primary mt-1">•</span> contratos</li>
-                  <li className="flex items-start gap-2"><span className="text-brand-primary mt-1">•</span> relações trabalhistas</li>
-                  <li className="flex items-start gap-2"><span className="text-brand-primary mt-1">•</span> questões empresariais</li>
-                  <li className="flex items-start gap-2"><span className="text-brand-primary mt-1">•</span> prevenção de conflitos</li>
-                </ul>
-              </div>
-              <div>
-                <h4 className="font-serif text-2xl text-brand-primary mb-6 pb-4 border-b border-brand-primary/10">Para condomínios</h4>
-                <ul className="flex flex-col gap-3 font-sans text-brand-secondary">
-                  <li className="flex items-start gap-2"><span className="text-brand-primary mt-1">•</span> questões condominiais</li>
-                  <li className="flex items-start gap-2"><span className="text-brand-primary mt-1">•</span> contratos</li>
-                  <li className="flex items-start gap-2"><span className="text-brand-primary mt-1">•</span> responsabilidades</li>
-                  <li className="flex items-start gap-2"><span className="text-brand-primary mt-1">•</span> relações com prestadores</li>
-                  <li className="flex items-start gap-2"><span className="text-brand-primary mt-1">•</span> orientação jurídica</li>
-                </ul>
+              <div className="font-sans text-lg text-brand-secondary leading-relaxed space-y-4">
+                <p>
+                  Acreditamos em uma advocacia que combina excelência técnica, ética e proximidade. Cada demanda envolve decisões e negócios que exigem seriedade.
+                </p>
+                <p>
+                  Nosso objetivo não é apenas responder a um problema, mas compreender o cenário e construir o caminho mais seguro para o seu futuro.
+                </p>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
 
-      {/* 17. HOME — COMO ATUAMOS */}
-      <section className="py-32 px-6 lg:px-20 bg-brand-deep text-brand-surface">
-        <div className="max-w-7xl mx-auto">
-          {/* Cabeçalho */}
-          <div className="max-w-3xl mb-20">
-            <span className="font-sans text-sm uppercase tracking-widest text-brand-surface/60 block mb-6">
-              Como atuamos
-            </span>
-            <h3 className="font-serif text-4xl md:text-5xl text-white leading-tight mb-8">
-              Quatro mudanças quando o jurídico passa a fazer parte da operação.
-            </h3>
-            <div className="font-sans text-lg text-brand-surface/80 leading-relaxed space-y-4">
-              <p>
-                Não acreditamos em um jurídico que aparece apenas quando surge um problema.
+            <div className="p-10 lg:p-12 bg-black/5">
+              <span className="font-sans text-sm uppercase tracking-widest text-brand-primary block mb-4">
+                Propósito
+              </span>
+              <h4 className="font-serif text-2xl text-brand-primary leading-tight mb-6">
+                Simplificar o complexo. Proteger decisões. Criar caminhos.
+              </h4>
+              <p className="font-sans text-brand-secondary leading-relaxed mb-4">
+                Transformar questões complexas em decisões mais claras e seguras.
               </p>
-              <p>
-                Atuamos de forma próxima à empresa, entendendo sua operação, antecipando riscos e transformando decisões do dia a dia em decisões mais seguras, previsíveis e bem estruturadas.
+              <p className="font-sans text-brand-secondary leading-relaxed">
+                Atuamos de forma estratégica para encontrar soluções inteligentes, construindo relações de confiança que vão além de uma demanda pontual.
               </p>
             </div>
           </div>
 
-          {/* Grid 2x2 */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-white/10 mb-20">
-            {/* 01 */}
-            <div className="bg-brand-deep p-12 lg:p-16 hover:bg-white/5 transition-colors duration-500">
-              <span className="text-[11px] font-sans uppercase tracking-widest text-brand-surface/50 mb-4 block">01 — Jurídico presente antes da decisão</span>
-              <h4 className="font-serif text-2xl text-white mb-4">Um departamento jurídico sob medida para a sua empresa.</h4>
-              <p className="font-sans text-brand-surface/70 leading-relaxed mb-4">
-                Participamos das decisões antes que elas sejam tomadas, oferecendo orientação estratégica para encontrar soluções seguras e viáveis — com foco em prevenir conflitos, e não simplesmente judicializá-los.
-              </p>
-              <p className="font-sans text-brand-surface/70 leading-relaxed">
-                Na prática: escopo e honorários são definidos previamente, trazendo previsibilidade de custos e clareza sobre o trabalho contratado.
-              </p>
-            </div>
-            
-            {/* 02 */}
-            <div className="bg-brand-deep p-12 lg:p-16 hover:bg-white/5 transition-colors duration-500">
-              <span className="text-[11px] font-sans uppercase tracking-widest text-brand-surface/50 mb-4 block">02 — Menos risco. Mais eficiência</span>
-              <h4 className="font-serif text-2xl text-white mb-4">Prevenção e redução do custo trabalhista.</h4>
-              <p className="font-sans text-brand-surface/70 leading-relaxed mb-4">
-                Analisamos contratos, processos internos e rotinas trabalhistas para identificar pontos de risco e oportunidades de melhoria.
-              </p>
-              <p className="font-sans text-brand-surface/70 leading-relaxed">
-                Atuamos tanto na prevenção quanto na resolução de conflitos, incluindo admissões, desligamentos, acordos individuais e coletivos e defesa em ações trabalhistas.
-              </p>
-            </div>
-
-            {/* 03 */}
-            <div className="bg-brand-deep p-12 lg:p-16 hover:bg-white/5 transition-colors duration-500">
-              <span className="text-[11px] font-sans uppercase tracking-widest text-brand-surface/50 mb-4 block">03 — Especialistas que entendem a sua realidade</span>
-              <h4 className="font-serif text-2xl text-white mb-4">Atendimento próximo, personalizado e orientado à solução.</h4>
-              <p className="font-sans text-brand-surface/70 leading-relaxed mb-4">
-                Empresários precisam de respostas que façam sentido para a realidade do negócio — não de respostas jurídicas desconectadas da operação.
-              </p>
-              <p className="font-sans text-brand-surface/70 leading-relaxed">
-                Por isso, os profissionais responsáveis pelo seu caso acompanham de perto cada demanda, entendendo o contexto antes de propor o caminho.
-              </p>
-            </div>
-
-            {/* 04 */}
-            <div className="bg-brand-deep p-12 lg:p-16 hover:bg-white/5 transition-colors duration-500">
-              <span className="text-[11px] font-sans uppercase tracking-widest text-brand-surface/50 mb-4 block">04 — Decisões formalizadas</span>
-              <h4 className="font-serif text-2xl text-white mb-4">Transformamos acordos em segurança jurídica.</h4>
-              <p className="font-sans text-brand-surface/70 leading-relaxed mb-4">
-                Uma decisão tomada em reunião, um acordo com fornecedor ou uma nova política interna só gera segurança quando está corretamente formalizada.
-              </p>
-              <p className="font-sans text-brand-surface/70 leading-relaxed mb-4">
-                Estruturamos e documentamos essas decisões para que o que foi combinado exista também como prova e tenha validade jurídica.
-              </p>
-              <p className="font-sans text-brand-surface/70 leading-relaxed">
-                Da reunião de sócios ao contrato com fornecedor. Da política interna à regra de comissionamento.
-              </p>
-            </div>
-          </div>
-
-          {/* Fechamento */}
-          <div className="max-w-3xl">
-            <h4 className="font-serif text-3xl text-white mb-8 leading-tight">
-              Mais do que resolver problemas jurídicos, ajudamos sua empresa a tomar decisões melhores.
+          {/* Coluna Direita: Valores */}
+          <div className="lg:col-span-6 flex flex-col justify-center">
+            <h4 className="font-serif text-3xl text-brand-primary mb-10 pb-4 border-b border-brand-primary/10">
+              O que orienta nossa atuação
             </h4>
-            <Link to="/contato" className="inline-flex items-center gap-4 font-sans text-[13px] uppercase tracking-widest text-white hover:gap-6 transition-all duration-300">
-              Fale com nossa equipe <span className="text-xl">→</span>
-            </Link>
+            
+            <div className="flex flex-col">
+              {[
+                { num: '01', title: 'Honestidade', text: 'Transparência para dizer o que precisa ser dito, com clareza e responsabilidade.' },
+                { num: '02', title: 'Lealdade', text: 'Compromisso genuíno com os interesses e objetivos de cada cliente.' },
+                { num: '03', title: 'Criatividade', text: 'Buscar alternativas inteligentes quando o caminho convencional não é suficiente.' },
+                { num: '04', title: 'Paciência', text: 'Ouvir, compreender o contexto e analisar cada situação antes de agir.' },
+                { num: '05', title: 'Comprometimento', text: 'Tratar cada demanda com seriedade, dedicação e responsabilidade.' },
+              ].map((valor, i) => (
+                <div key={i} className="py-8 border-b border-brand-primary/10 group hover:bg-black/5 transition-colors px-6 -mx-6">
+                  <div className="flex flex-col md:flex-row md:items-baseline gap-2 md:gap-8">
+                    <span className="text-[11px] font-sans uppercase tracking-widest text-brand-secondary w-8 shrink-0 block mb-2 md:mb-0">{valor.num}</span>
+                    <div>
+                      <h5 className="font-serif text-2xl text-brand-primary mb-2">{valor.title}</h5>
+                      <p className="font-sans text-brand-secondary leading-relaxed">{valor.text}</p>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>
+
+
 
       {/* 18. HOME — AVALIAÇÕES */}
       <section className="py-24 px-6 lg:px-20 border-y border-brand-primary/10 flex flex-col md:flex-row justify-between items-center gap-12 bg-brand-surface">
         <div className="max-w-xl">
+          <span className="font-sans text-sm uppercase tracking-widest text-brand-secondary block mb-6">
+            Reputação
+          </span>
           <h3 className="font-serif text-3xl md:text-4xl text-brand-primary mb-6 leading-tight">
             A confiança de quem já conhece nosso trabalho.
           </h3>
@@ -459,6 +412,9 @@ export function Home() {
       <section className="py-32 px-6 lg:px-20 bg-brand-surface">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
           <div>
+            <span className="font-sans text-sm uppercase tracking-widest text-brand-secondary block mb-6">
+              Onde Estamos
+            </span>
             <h3 className="font-serif text-4xl md:text-5xl text-brand-primary leading-tight mb-8">
               Advocacia em Salto de Pirapora, Sorocaba e região
             </h3>
@@ -496,6 +452,9 @@ export function Home() {
       {/* 20. HOME — FAQ */}
       <section className="py-32 px-6 lg:px-20 bg-brand-surface border-t border-brand-primary/10">
         <div className="max-w-3xl mx-auto">
+          <span className="font-sans text-sm uppercase tracking-widest text-brand-secondary block mb-6 text-center">
+            Perguntas Frequentes
+          </span>
           <h3 className="font-serif text-4xl text-brand-primary text-center mb-16">
             Dúvidas Frequentes
           </h3>
@@ -542,10 +501,13 @@ export function Home() {
       {/* 21. HOME — CTA FINAL */}
       <section className="py-32 px-6 lg:px-20 bg-brand-deep text-center">
         <div className="max-w-3xl mx-auto">
+          <span className="font-sans text-sm uppercase tracking-widest text-brand-surface/80 block mb-6">
+            Próximos Passos
+          </span>
           <h3 className="font-serif text-4xl md:text-5xl text-brand-surface mb-8">
             Precisa de orientação jurídica?
           </h3>
-          <p className="font-sans text-lg text-brand-surface/70 leading-relaxed mb-12">
+          <p className="font-sans text-lg text-brand-surface/90 leading-relaxed mb-12">
             Converse com o Escritório Freitas e explique sua situação. Nossa equipe poderá orientar você sobre os próximos passos e a área jurídica adequada para sua demanda.
           </p>
           <a 

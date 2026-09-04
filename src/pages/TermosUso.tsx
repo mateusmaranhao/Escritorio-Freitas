@@ -10,6 +10,9 @@ export function TermosUso() {
       />
       <main className="pt-40 pb-32">
         <div className="max-w-4xl mx-auto px-6 lg:px-20">
+          <span className="font-sans text-sm uppercase tracking-widest text-brand-secondary block mb-6">
+            Documentação Legal
+          </span>
           <h1 className="font-serif text-4xl md:text-5xl text-brand-primary mb-12">Termos de Uso</h1>
           
           <div className="prose prose-lg text-brand-secondary font-sans leading-relaxed">

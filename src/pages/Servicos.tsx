@@ -13,6 +13,9 @@ export function Servicos() {
       <main className="pt-40 pb-32">
         <div className="max-w-7xl mx-auto px-6 lg:px-20">
           <div className="max-w-3xl mb-24">
+            <span className="font-sans text-sm uppercase tracking-widest text-brand-secondary block mb-6">
+              Nossa Atuação
+            </span>
             <h1 className="font-serif text-5xl md:text-6xl text-brand-primary leading-tight mb-8">
               Áreas de atuação
             </h1>

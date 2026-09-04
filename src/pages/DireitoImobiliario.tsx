@@ -40,6 +40,9 @@ export function DireitoImobiliario() {
         {/* Hero & H1 */}
         <div className="max-w-7xl mx-auto px-6 lg:px-20 mb-20">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
+            <span className="font-sans text-sm uppercase tracking-widest text-brand-secondary block mb-6">
+              Área de Atuação
+            </span>
             <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl text-brand-primary leading-tight mb-8">
               Direito Imobiliário em Salto de Pirapora e Região
             </h1>

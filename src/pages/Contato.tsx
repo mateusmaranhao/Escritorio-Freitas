@@ -25,6 +25,9 @@ export function Contato() {
       
       <main className="pt-40 pb-32">
         <div className="max-w-7xl mx-auto px-6 lg:px-20">
+          <span className="font-sans text-sm uppercase tracking-widest text-brand-secondary block mb-6">
+            Fale Conosco
+          </span>
           <h1 className="font-serif text-5xl md:text-6xl text-brand-primary mb-16">
             Entre em contato com o Escritório Freitas
           </h1>

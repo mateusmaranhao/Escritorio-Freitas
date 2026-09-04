@@ -15,6 +15,9 @@ export function Sobre() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-24">
             
             <div className="lg:col-span-7">
+              <span className="font-sans text-sm uppercase tracking-widest text-brand-secondary block mb-6">
+                Nossa História
+              </span>
               <h1 className="font-serif text-5xl md:text-6xl text-brand-primary leading-tight mb-12">
                 Escritório Freitas — Advogados Associados
               </h1>
