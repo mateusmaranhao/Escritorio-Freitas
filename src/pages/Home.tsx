@@ -229,7 +229,7 @@ export function Home() {
 
           {/* Fechamento */}
           <div className="w-full flex flex-col md:flex-row items-start md:items-center justify-between gap-8 border-t border-brand-surface/10 pt-12">
-            <h4 className="font-poppins text-2xl md:text-3xl text-brand-surface leading-tight max-w-2xl">
+            <h4 className="font-poppins text-xl md:text-2xl text-brand-surface leading-tight">
               O jurídico deve participar da decisão — não apenas da solução.
             </h4>
             <Link to="/contato" className="inline-flex items-center gap-4 font-gilroy text-[13px] uppercase tracking-widest text-brand-surface hover:gap-6 transition-all duration-300 shrink-0">
