@@ -15,10 +15,10 @@ export function Sobre() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-24">
             
             <div className="lg:col-span-7">
-              <span className="font-sans text-sm uppercase tracking-widest text-brand-secondary block mb-6">
+              <span className="font-gilroy text-sm uppercase tracking-widest text-brand-secondary block mb-6">
                 Nossa História
               </span>
-              <h1 className="font-serif text-5xl md:text-6xl text-brand-primary leading-tight mb-12">
+              <h1 className="font-poppins text-5xl md:text-6xl text-brand-primary leading-tight mb-12">
                 Escritório Freitas — Advogados Associados
               </h1>
               
@@ -40,24 +40,24 @@ export function Sobre() {
 
             <div className="lg:col-span-5">
               <div className="bg-black/5 p-12 sticky top-40">
-                <h3 className="font-serif text-3xl text-brand-primary mb-8">Nossos Compromissos</h3>
-                <ul className="flex flex-col gap-6 font-sans text-brand-secondary">
+                <h3 className="font-poppins text-3xl text-brand-primary mb-8">Nossos Compromissos</h3>
+                <ul className="flex flex-col gap-6 font-gilroy text-brand-secondary">
                   <li className="flex gap-4">
-                    <span className="text-brand-primary text-xl font-serif">I.</span>
+                    <span className="text-brand-primary text-xl font-poppins">I.</span>
                     <div>
                       <strong className="block text-brand-primary font-medium mb-1">Responsabilidade</strong>
                       Atuação ética e transparente em cada etapa.
                     </div>
                   </li>
                   <li className="flex gap-4">
-                    <span className="text-brand-primary text-xl font-serif">II.</span>
+                    <span className="text-brand-primary text-xl font-poppins">II.</span>
                     <div>
                       <strong className="block text-brand-primary font-medium mb-1">Profissionalismo</strong>
                       Rigor técnico na análise e condução das demandas.
                     </div>
                   </li>
                   <li className="flex gap-4">
-                    <span className="text-brand-primary text-xl font-serif">III.</span>
+                    <span className="text-brand-primary text-xl font-poppins">III.</span>
                     <div>
                       <strong className="block text-brand-primary font-medium mb-1">Proximidade</strong>
                       Compreensão profunda do contexto de cada cliente.

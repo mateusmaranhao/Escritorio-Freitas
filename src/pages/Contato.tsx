@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { SEO } from '../components/SEO';
 
 export function Contato() {
@@ -25,39 +25,39 @@ export function Contato() {
       
       <main className="pt-40 pb-32">
         <div className="max-w-7xl mx-auto px-6 lg:px-20">
-          <span className="font-sans text-sm uppercase tracking-widest text-brand-secondary block mb-6">
+          <span className="font-gilroy text-sm uppercase tracking-widest text-brand-secondary block mb-6">
             Fale Conosco
           </span>
-          <h1 className="font-serif text-5xl md:text-6xl text-brand-primary mb-16">
+          <h1 className="font-poppins text-5xl md:text-6xl text-brand-primary mb-16">
             Entre em contato com o Escritório Freitas
           </h1>
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-20">
             {/* Form */}
             <div>
-              <p className="font-sans text-lg text-brand-secondary mb-10">
+              <p className="font-gilroy text-lg text-brand-secondary mb-10">
                 Conte brevemente o que você precisa. Retornaremos o contato para agendar uma conversa.
               </p>
 
               <form onSubmit={handleSubmit} className="flex flex-col gap-6">
                 <div>
-                  <label htmlFor="name" className="block font-sans text-[13px] uppercase tracking-widest text-brand-primary mb-2">Nome Completo</label>
+                  <label htmlFor="name" className="block font-gilroy text-[13px] uppercase tracking-widest text-brand-primary mb-2">Nome Completo</label>
                   <input type="text" id="name" required className="w-full border border-brand-primary/20 bg-transparent p-4 outline-none focus:border-brand-primary transition-colors" />
                 </div>
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
-                    <label htmlFor="email" className="block font-sans text-[13px] uppercase tracking-widest text-brand-primary mb-2">E-mail</label>
+                    <label htmlFor="email" className="block font-gilroy text-[13px] uppercase tracking-widest text-brand-primary mb-2">E-mail</label>
                     <input type="email" id="email" required className="w-full border border-brand-primary/20 bg-transparent p-4 outline-none focus:border-brand-primary transition-colors" />
                   </div>
                   <div>
-                    <label htmlFor="phone" className="block font-sans text-[13px] uppercase tracking-widest text-brand-primary mb-2">Telefone / WhatsApp</label>
+                    <label htmlFor="phone" className="block font-gilroy text-[13px] uppercase tracking-widest text-brand-primary mb-2">Telefone / WhatsApp</label>
                     <input type="tel" id="phone" required className="w-full border border-brand-primary/20 bg-transparent p-4 outline-none focus:border-brand-primary transition-colors" />
                   </div>
                 </div>
 
                 <div>
-                  <label htmlFor="subject" className="block font-sans text-[13px] uppercase tracking-widest text-brand-primary mb-2">Assunto</label>
+                  <label htmlFor="subject" className="block font-gilroy text-[13px] uppercase tracking-widest text-brand-primary mb-2">Assunto</label>
                   <select id="subject" required className="w-full border border-brand-primary/20 bg-transparent p-4 outline-none focus:border-brand-primary transition-colors appearance-none rounded-none">
                     <option value="">Selecione o assunto</option>
                     <option value="Trabalhista">Direito Trabalhista</option>
@@ -69,13 +69,13 @@ export function Contato() {
                 </div>
 
                 <div>
-                  <label htmlFor="message" className="block font-sans text-[13px] uppercase tracking-widest text-brand-primary mb-2">Mensagem</label>
+                  <label htmlFor="message" className="block font-gilroy text-[13px] uppercase tracking-widest text-brand-primary mb-2">Mensagem</label>
                   <textarea id="message" required rows={4} className="w-full border border-brand-primary/20 bg-transparent p-4 outline-none focus:border-brand-primary transition-colors resize-none"></textarea>
                 </div>
 
                 <div className="flex items-start gap-3 mt-2">
                   <input type="checkbox" id="lgpd" required className="mt-1" />
-                  <label htmlFor="lgpd" className="font-sans text-[13px] text-brand-secondary">
+                  <label htmlFor="lgpd" className="font-gilroy text-[13px] text-brand-secondary">
                     Li e concordo com a <a href="/politica-de-privacidade" className="underline hover:text-brand-primary">Política de Privacidade</a>.
                   </label>
                 </div>
@@ -84,16 +84,16 @@ export function Contato() {
                   <button 
                     type="submit" 
                     disabled={formStatus === 'loading'}
-                    className="inline-block border border-brand-primary bg-brand-primary px-10 py-4 text-[13px] uppercase tracking-widest text-white hover:bg-brand-deep transition-colors duration-300 disabled:opacity-50"
+                    className="inline-block border border-brand-primary bg-brand-primary px-10 py-4 text-[13px] uppercase tracking-widest text-brand-surface hover:bg-brand-deep transition-colors duration-300 disabled:opacity-50"
                   >
                     {formStatus === 'loading' ? 'Enviando...' : 'Enviar mensagem'}
                   </button>
                   
                   {formStatus === 'success' && (
-                    <p className="mt-4 font-sans text-sm text-green-700">Mensagem enviada. Obrigado pelo contato.</p>
+                    <p className="mt-4 font-gilroy text-sm text-green-700">Mensagem enviada. Obrigado pelo contato.</p>
                   )}
                   {formStatus === 'error' && (
-                    <p className="mt-4 font-sans text-sm text-red-700">Confira os campos destacados e tente novamente.</p>
+                    <p className="mt-4 font-gilroy text-sm text-red-700">Confira os campos destacados e tente novamente.</p>
                   )}
                 </div>
               </form>
@@ -101,12 +101,12 @@ export function Contato() {
 
             {/* Info */}
             <div className="bg-black/5 p-12 h-fit">
-              <h3 className="font-serif text-3xl text-brand-primary mb-8">Informações</h3>
+              <h3 className="font-poppins text-3xl text-brand-primary mb-8">Informações</h3>
               
               <div className="flex flex-col gap-8">
                 <div>
-                  <strong className="block font-sans text-[11px] uppercase tracking-widest text-brand-secondary mb-2">Endereço</strong>
-                  <p className="font-sans text-brand-primary">
+                  <strong className="block font-gilroy text-[11px] uppercase tracking-widest text-brand-secondary mb-2">Endereço</strong>
+                  <p className="font-gilroy text-brand-primary">
                     R. Maximiano Fidelis, 45 - Centro<br/>
                     Salto de Pirapora - SP<br/>
                     18160-041
@@ -114,21 +114,21 @@ export function Contato() {
                 </div>
                 
                 <div>
-                  <strong className="block font-sans text-[11px] uppercase tracking-widest text-brand-secondary mb-2">WhatsApp / Telefone</strong>
-                  <a href="https://wa.me/5515996662831" className="font-sans text-brand-primary hover:text-brand-secondary transition-colors text-lg">
+                  <strong className="block font-gilroy text-[11px] uppercase tracking-widest text-brand-secondary mb-2">WhatsApp / Telefone</strong>
+                  <a href="https://wa.me/5515996662831" className="font-gilroy text-brand-primary hover:text-brand-secondary transition-colors text-lg">
                     (15) 99666-2831
                   </a>
                 </div>
 
                 <div className="mt-8 pt-8 border-t border-brand-primary/10">
-                  <p className="font-sans text-sm text-brand-secondary mb-4">
+                  <p className="font-gilroy text-sm text-brand-secondary mb-4">
                     Prefere falar agora mesmo?
                   </p>
                   <a 
                     href="https://wa.me/5515996662831" 
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 border border-brand-primary px-6 py-3 text-[12px] uppercase tracking-widest text-brand-primary hover:bg-brand-primary hover:text-white transition-colors duration-300"
+                    className="inline-flex items-center gap-2 border border-brand-primary px-6 py-3 text-[12px] uppercase tracking-widest text-brand-primary hover:bg-brand-primary hover:text-brand-surface transition-colors duration-300"
                   >
                     Falar pelo WhatsApp
                   </a>
