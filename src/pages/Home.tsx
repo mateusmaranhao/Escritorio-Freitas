@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Link } from 'react-router-dom';
 import { SEO } from '../components/SEO';
+import { GoogleReviews } from '../components/GoogleReviews';
 
 const HomeSchema = {
   "@context": "https://schema.org",
@@ -69,23 +70,23 @@ export function Home() {
       {/* 12. HERO DA HOME */}
       <section className="relative flex flex-col bg-brand-surface border-b border-[#333333]/10">
         <div className="flex-1 grid grid-cols-1 lg:grid-cols-12 gap-0 relative min-h-[70vh]">
-          <div className="lg:col-span-7 flex flex-col justify-center px-6 py-16 lg:px-12 lg:pl-20">
+          <div className="lg:col-span-7 flex flex-col justify-center px-6 pt-6 pb-10 sm:pt-8 sm:pb-12 lg:py-14 lg:px-12 lg:pl-16 xl:pl-20">
             <motion.div 
-              initial={{ opacity: 0, y: 20 }}
+              initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+              transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
             >
-              <span className="text-[11px] uppercase tracking-[0.4em] text-[#555555] mb-6 block">Advocacia em Salto de Pirapora : SP</span>
-              <h1 className="font-poppins text-5xl md:text-7xl text-[#333333] leading-[1.1] mb-8">
+              <span className="text-[11px] uppercase tracking-[0.35em] text-[#555555] mb-4 block font-gilroy font-medium">Advocacia em Salto de Pirapora : SP</span>
+              <h1 className="font-poppins text-3xl sm:text-4xl md:text-5xl lg:text-[54px] text-[#333333] font-semibold leading-[1.15] mb-5 tracking-tight max-w-2xl">
                 Proteção jurídica para quem constrói e lidera.
               </h1>
-              <p className="text-[#555555] text-lg max-w-lg leading-relaxed mb-10 tracking-tight">
+              <p className="font-gilroy text-base sm:text-lg text-[#555555] max-w-lg leading-relaxed mb-8 tracking-tight font-normal">
                 Especialistas na defesa de interesses empresariais e condominiais. Mais de uma década de rigor jurídico e parceria estratégica regional.
               </p>
               <div className="flex items-center gap-6">
                 <div className="flex flex-col">
-                  <span className="text-3xl font-poppins text-[#333333]">+10</span>
-                  <span className="text-[9px] uppercase tracking-widest text-[#555555]">Anos de Experiência</span>
+                  <span className="text-2xl sm:text-3xl font-poppins text-[#333333] font-semibold">+10</span>
+                  <span className="text-[9px] uppercase tracking-widest text-[#555555] font-gilroy">Anos de Experiência</span>
                 </div>
                 <div className="w-[1px] h-10 bg-[#333333]/20"></div>
                 <div className="flex flex-col">
@@ -96,7 +97,7 @@ export function Home() {
                     <svg className="w-3 h-3 fill-[#333333]" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
                     <svg className="w-3 h-3 fill-[#333333]" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
                   </div>
-                  <span className="text-[9px] uppercase tracking-widest text-[#555555]">157 Avaliações Google</span>
+                  <span className="text-[9px] uppercase tracking-widest text-[#555555] font-gilroy">157 Avaliações Google</span>
                 </div>
               </div>
             </motion.div>
@@ -379,32 +380,42 @@ export function Home() {
 
 
 
-      {/* 18. HOME — AVALIAÇÕES */}
-      <section className="py-24 px-6 lg:px-20 border-y border-brand-primary/10 flex flex-col md:flex-row justify-between items-center gap-12 bg-brand-surface">
-        <div className="max-w-xl">
-          <span className="font-gilroy text-sm uppercase tracking-widest text-brand-secondary block mb-6">
-            Reputação
-          </span>
-          <h3 className="font-poppins text-3xl md:text-4xl text-brand-primary mb-6 leading-tight">
-            A confiança de quem já conhece nosso trabalho.
-          </h3>
-          <p className="font-gilroy text-base text-brand-secondary leading-relaxed">
-            A experiência de nossos clientes destaca características como profissionalismo, responsabilidade, dedicação, atenção, competência e parceria.
-          </p>
-        </div>
-        
-        <div className="flex flex-col items-start md:items-end gap-4 shrink-0">
-          <div className="flex items-baseline gap-4">
-            <span className="font-poppins text-5xl md:text-6xl text-brand-primary">5,0</span>
-            <div className="flex gap-1 text-brand-primary">
-              {[...Array(5)].map((_, i) => (
-                <svg key={i} width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
-              ))}
+      {/* 18. HOME — AVALIAÇÕES & REPUTAÇÃO */}
+      <section className="py-28 px-6 lg:px-20 border-y border-brand-primary/10 bg-brand-surface">
+        <div className="max-w-7xl mx-auto">
+          {/* Header Row: Reputação info and 5.0 rating */}
+          <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-8 mb-14">
+            <div className="max-w-2xl">
+              <span className="font-gilroy text-sm uppercase tracking-widest text-brand-secondary block mb-6">
+                Reputação
+              </span>
+              <h3 className="font-poppins text-3xl md:text-4xl text-brand-primary mb-6 leading-tight">
+                A confiança de quem já conhece nosso trabalho.
+              </h3>
+              <p className="font-gilroy text-base md:text-lg text-brand-secondary leading-relaxed">
+                A experiência de nossos clientes destaca características como profissionalismo, responsabilidade, dedicação, atenção, competência e parceria.
+              </p>
+            </div>
+            
+            <div className="flex flex-col items-start md:items-end gap-3 shrink-0">
+              <div className="flex items-baseline gap-4">
+                <span className="font-poppins text-5xl md:text-6xl text-brand-primary font-medium">5,0</span>
+                <div className="flex gap-1 text-[#FBBC04]">
+                  {[...Array(5)].map((_, i) => (
+                    <svg key={i} width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
+                    </svg>
+                  ))}
+                </div>
+              </div>
+              <p className="font-gilroy text-xs uppercase tracking-[0.15em] text-brand-secondary">
+                157 avaliações no Google
+              </p>
             </div>
           </div>
-          <p className="font-gilroy text-xs uppercase tracking-[0.15em] text-brand-secondary">
-            157 avaliações no Google
-          </p>
+
+          {/* Google Reviews Cards matching reference image */}
+          <GoogleReviews />
         </div>
       </section>
 
