@@ -1,9 +1,16 @@
-import { Link, Outlet } from 'react-router-dom';
+import { useEffect } from 'react';
+import { useLocation, Outlet } from 'react-router-dom';
 import { Header } from './Header';
 import { Footer } from './Footer';
 import { WhatsAppFloating } from './WhatsAppFloating';
 
 export function Layout() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   return (
     <div className="flex flex-col min-h-screen">
       <Header />

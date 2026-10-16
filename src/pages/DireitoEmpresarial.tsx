@@ -268,28 +268,7 @@ export function DireitoEmpresarial() {
         </div>
       </section>
 
-      {/* 2. PROVA SOCIAL — REPUTAÇÃO & GOOGLE REVIEWS */}
-      <section className="py-20 px-6 lg:px-20 border-b border-brand-primary/10 bg-brand-surface">
-        <div className="max-w-7xl mx-auto">
-          <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-6 mb-12">
-            <div>
-              <span className="font-gilroy text-[11px] uppercase tracking-[0.3em] text-brand-muted block mb-3">
-                Credibilidade Regional · Salto de Pirapora & Sorocaba
-              </span>
-              <h2 className="font-poppins text-3xl md:text-4xl text-brand-primary">
-                O que dizem empresários e clientes que nos procuram
-              </h2>
-            </div>
-            <p className="font-gilroy text-sm text-brand-secondary max-w-md">
-              Mais de 157 avaliações no Google que confirmam nosso comprometimento com a agilidade, ética e solidez nos negócios dos nossos clientes.
-            </p>
-          </div>
-
-          <GoogleReviews />
-        </div>
-      </section>
-
-      {/* 3. PROBLEMA — O QUE ESTÁ EM JOGO */}
+      {/* 2. PROBLEMA — O QUE ESTÁ EM JOGO */}
       <section className="py-24 px-6 lg:px-20 bg-brand-surface-alt/30 border-b border-brand-primary/10">
         <div className="max-w-7xl mx-auto">
           <div className="max-w-3xl mb-16">
@@ -349,7 +328,7 @@ export function DireitoEmpresarial() {
         </div>
       </section>
 
-      {/* 4. SOLUÇÃO — COMO O ESCRITÓRIO FREITAS RESOLVE */}
+      {/* 3. SOLUÇÃO — COMO O ESCRITÓRIO FREITAS RESOLVE */}
       <section className="py-24 px-6 lg:px-20 bg-brand-surface border-b border-brand-primary/10">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
@@ -400,12 +379,12 @@ export function DireitoEmpresarial() {
         </div>
       </section>
 
-      {/* 5. COMO FUNCIONA — ETAPAS TRANSPARENTES */}
+      {/* 4. COMO FUNCIONA / METODOLOGIA */}
       <section id="como-funciona" className="py-24 px-6 lg:px-20 bg-brand-surface-alt/20 border-b border-brand-primary/10">
         <div className="max-w-7xl mx-auto">
           <div className="text-center max-w-2xl mx-auto mb-16">
             <span className="font-gilroy text-[11px] uppercase tracking-[0.3em] text-brand-muted block mb-3">
-              Fluxo Estruturado
+              Fluxo Estruturado · Metodologia
             </span>
             <h2 className="font-poppins text-3xl md:text-5xl text-brand-primary mb-4">
               Como funciona nossa assessoria empresarial
@@ -424,6 +403,27 @@ export function DireitoEmpresarial() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* 5. PROVA SOCIAL — REPUTAÇÃO & GOOGLE REVIEWS */}
+      <section className="py-20 px-6 lg:px-20 border-b border-brand-primary/10 bg-brand-surface">
+        <div className="max-w-7xl mx-auto">
+          <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-6 mb-12">
+            <div>
+              <span className="font-gilroy text-[11px] uppercase tracking-[0.3em] text-brand-muted block mb-3">
+                Credibilidade Regional · Salto de Pirapora & Sorocaba
+              </span>
+              <h2 className="font-poppins text-3xl md:text-4xl text-brand-primary">
+                O que dizem empresários e clientes que nos procuram
+              </h2>
+            </div>
+            <p className="font-gilroy text-sm text-brand-secondary max-w-md">
+              Mais de 157 avaliações no Google que confirmam nosso comprometimento com a agilidade, ética e solidez nos negócios dos nossos clientes.
+            </p>
+          </div>
+
+          <GoogleReviews />
         </div>
       </section>
 

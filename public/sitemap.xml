@@ -16,22 +16,87 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://escritoriofreitas.com.br/servicos/direito-trabalhista</loc>
+    <loc>https://escritoriofreitas.com.br/servicos/direito-patronal</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://escritoriofreitas.com.br/servicos/direito-patronal/advocacia-preventiva-consultoria-trabalhista</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://escritoriofreitas.com.br/servicos/direito-previdenciario</loc>
+    <loc>https://escritoriofreitas.com.br/servicos/direito-patronal/advocacia-contenciosa</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://escritoriofreitas.com.br/servicos/direito-patronal/relacoes-sindicais</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://escritoriofreitas.com.br/servicos/direito-patronal/defesa-administrativa</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://escritoriofreitas.com.br/servicos/direito-empresarial</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://escritoriofreitas.com.br/servicos/direito-empresarial/direito-societario</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://escritoriofreitas.com.br/servicos/direito-empresarial/contratos-empresariais</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://escritoriofreitas.com.br/servicos/direito-empresarial/propriedade-intelectual-compliance</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://escritoriofreitas.com.br/servicos/direito-empresarial/gestao-de-crises-recuperacao-falencia</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://escritoriofreitas.com.br/servicos/direito-empresarial/defesa-contenciosa-empresarial</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://escritoriofreitas.com.br/servicos/direito-imobiliario</loc>
     <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://escritoriofreitas.com.br/servicos/direito-imobiliario/compra-e-venda-due-diligence</loc>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://escritoriofreitas.com.br/servicos/direito-empresarial</loc>
+    <loc>https://escritoriofreitas.com.br/servicos/direito-imobiliario/locacao-de-imoveis</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://escritoriofreitas.com.br/servicos/direito-imobiliario/regularizacao-de-imoveis</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://escritoriofreitas.com.br/servicos/direito-imobiliario/direito-condominial-vizinhanca</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://escritoriofreitas.com.br/servicos/direito-imobiliario/incorporacao-imobiliaria-leiloes</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

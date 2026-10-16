@@ -28,8 +28,7 @@ export function Header() {
   ];
 
   const serviceLinks = [
-    { name: 'Direito Trabalhista', path: '/servicos/direito-trabalhista' },
-    { name: 'Direito Previdenciário', path: '/servicos/direito-previdenciario' },
+    { name: 'Direito Patronal', path: '/servicos/direito-patronal' },
     { name: 'Direito Imobiliário', path: '/servicos/direito-imobiliario' },
     { name: 'Direito Empresarial', path: '/servicos/direito-empresarial' },
     { name: 'Ver todos os serviços', path: '/servicos' },
@@ -66,7 +65,7 @@ export function Header() {
             onClick={() => setServicesOpen(!servicesOpen)}
             aria-expanded={servicesOpen}
           >
-            SERVIÇOS <ChevronDown size={14} className={clsx("transition-transform duration-300", servicesOpen && "rotate-180")} />
+            ÁREAS DE ATUAÇÃO <ChevronDown size={14} className={clsx("transition-transform duration-300", servicesOpen && "rotate-180")} />
           </button>
           
           <AnimatePresence>
@@ -130,7 +129,7 @@ export function Header() {
                 SOBRE
               </Link>
               <div className="py-2 border-b border-brand-primary/5">
-                <span className="font-gilroy text-[14px] uppercase tracking-widest block mb-4 text-brand-primary">SERVIÇOS</span>
+                <span className="font-gilroy text-[14px] uppercase tracking-widest block mb-4 text-brand-primary">ÁREAS DE ATUAÇÃO</span>
                 <ul className="flex flex-col gap-3 pl-4">
                   {serviceLinks.map((link) => (
                     <li key={link.path}>

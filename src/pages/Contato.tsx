@@ -60,8 +60,7 @@ export function Contato() {
                   <label htmlFor="subject" className="block font-gilroy text-[13px] uppercase tracking-widest text-brand-primary mb-2">Assunto</label>
                   <select id="subject" required className="w-full border border-brand-primary/20 bg-transparent p-4 outline-none focus:border-brand-primary transition-colors appearance-none rounded-none">
                     <option value="">Selecione o assunto</option>
-                    <option value="Trabalhista">Direito Trabalhista</option>
-                    <option value="Previdenciario">Direito Previdenciário</option>
+                    <option value="Patronal">Direito Patronal (Empresas/Empregadores)</option>
                     <option value="Imobiliario">Direito Imobiliário</option>
                     <option value="Empresarial">Direito Empresarial</option>
                     <option value="Outros">Outros</option>

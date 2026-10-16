@@ -30,7 +30,7 @@ export function Sobre() {
                   Nossa atuação é direcionada à proteção jurídica. Compreendemos que pessoas, empresas e condomínios enfrentam desafios diários que exigem atenção redobrada aos detalhes contratuais e às relações de trabalho. Por isso, nos posicionamos não apenas como defensores em litígios, mas como parceiros na orientação preventiva e estratégica.
                 </p>
                 <p className="mb-6">
-                  Atendemos empresários e condomínios que buscam segurança jurídica para tomar decisões, e pessoas que necessitam de amparo legal em questões trabalhistas e previdenciárias. Acreditamos que o Direito deve ser exercido com proximidade, ética e extrema dedicação ao contexto de cada demanda.
+                  Atendemos empresários, empresas e condomínios que buscam segurança jurídica para tomar decisões estratégicas, prevenir passivos trabalhistas patronais e proteger seu patrimônio com excelência técnica. Acreditamos que o Direito deve ser exercido com proximidade, ética e extrema dedicação ao contexto de cada demanda.
                 </p>
                 <p>
                   O profissionalismo de nossa equipe reflete-se na análise cuidadosa de cada situação, garantindo que nossos clientes compreendam seus direitos, deveres e as melhores alternativas para a resolução de suas questões jurídicas.
