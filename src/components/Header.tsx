@@ -41,14 +41,18 @@ export function Header() {
         isScrolled ? 'shadow-sm' : ''
       )}
     >
-      <div className="flex items-center gap-3">
-        <div className="w-8 h-8 bg-brand-primary flex items-center justify-center">
-          <span className="text-brand-surface font-bold text-xs">F</span>
-        </div>
-        <Link to="/" className="uppercase tracking-[0.3em] font-medium text-sm text-brand-primary hidden sm:block" aria-label="Home">
-          Escritório Freitas
-        </Link>
-      </div>
+      <Link 
+        to="/" 
+        className="flex items-center group py-1" 
+        aria-label="Escritório Freitas — Início"
+      >
+        <img 
+          src="/minha-logo.webp" 
+          alt="Escritório Freitas — Advogados Associados" 
+          className="h-10 sm:h-12 w-auto object-contain transition-opacity duration-200 group-hover:opacity-90"
+          referrerPolicy="no-referrer"
+        />
+      </Link>
 
       {/* Desktop Nav */}
       <nav className="hidden lg:flex items-center gap-8 text-[11px] uppercase tracking-widest font-medium">

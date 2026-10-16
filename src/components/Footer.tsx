@@ -88,13 +88,13 @@ export function Footer() {
       >
         {/* Col 1: Brand & Contact Info */}
         <div className="space-y-4">
-          <Link to="/" className="inline-block">
-            <span className="font-poppins text-xl tracking-wider text-brand-surface font-semibold block">
-              ESCRITÓRIO FREITAS
-            </span>
-            <span className="font-gilroy text-[9px] uppercase tracking-[0.3em] text-brand-surface/70 block mt-0.5">
-              ADVOGADOS ASSOCIADOS
-            </span>
+          <Link to="/" className="inline-block group" aria-label="Escritório Freitas — Início">
+            <img 
+              src="/minha-logo-white.webp" 
+              alt="Escritório Freitas — Advogados Associados" 
+              className="h-10 sm:h-11 w-auto object-contain transition-opacity duration-200 group-hover:opacity-90"
+              referrerPolicy="no-referrer"
+            />
           </Link>
           <p className="font-gilroy text-xs text-brand-surface/60 leading-relaxed pt-2">
             Rua Maximiano Fidelis, 45<br />
