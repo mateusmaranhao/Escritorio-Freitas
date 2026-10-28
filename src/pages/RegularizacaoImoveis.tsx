@@ -36,10 +36,10 @@ export function RegularizacaoImoveis() {
       "name": "Escritório Freitas: Advogados Associados",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Rua Maximiano Fidelis, 45",
+        "streetAddress": "Rua João de Góes, nº 117 - Centro",
         "addressLocality": "Salto de Pirapora",
         "addressRegion": "SP",
-        "postalCode": "18160-000",
+        "postalCode": "18160-043",
         "addressCountry": "BR"
       },
       "telephone": "+55 15 99666-2831"
@@ -496,7 +496,7 @@ export function RegularizacaoImoveis() {
           </div>
 
           <div className="mt-12 pt-8 border-t border-brand-surface/10 flex flex-wrap justify-center items-center gap-8 font-gilroy text-xs text-brand-surface/60">
-            <span>Rua Maximiano Fidelis, 45 — Centro, Salto de Pirapora</span>
+            <span>Rua João de Góes, nº 117 — Centro, Salto de Pirapora</span>
             <span>·</span>
             <span>Atendimento Regional Salto de Pirapora e Sorocaba</span>
             <span>·</span>

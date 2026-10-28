@@ -97,8 +97,8 @@ export function Footer() {
             />
           </Link>
           <p className="font-gilroy text-xs text-brand-surface/60 leading-relaxed pt-2">
-            Rua Maximiano Fidelis, 45<br />
-            Salto de Pirapora - SP, 18160-000
+            Rua João de Góes, nº 117 - Centro<br />
+            Salto de Pirapora - SP, 18160-043
           </p>
           <p className="font-gilroy text-xs text-brand-surface/60 leading-relaxed">
             WhatsApp: (15) 99666-2831<br />
@@ -107,7 +107,7 @@ export function Footer() {
           </p>
           <div className="pt-2">
             <span className="inline-block font-gilroy text-[10px] tracking-widest text-brand-surface/40 uppercase border border-brand-surface/20 px-2.5 py-1">
-              OAB/SP 45.123
+              OAB/SP 26028
             </span>
           </div>
         </div>

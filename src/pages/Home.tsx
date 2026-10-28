@@ -12,16 +12,16 @@ const HomeSchema = {
   "description": "Escritório de Advocacia especializado na proteção jurídica de empresários e condomínios com mais de 10 anos de experiência.",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "R. Maximiano Fidelis, 45 - Centro",
+    "streetAddress": "Rua João de Góes, nº 117 - Centro",
     "addressLocality": "Salto de Pirapora",
     "addressRegion": "SP",
-    "postalCode": "18160-041",
+    "postalCode": "18160-043",
     "addressCountry": "BR"
   },
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": -23.6485,
-    "longitude": -47.5739
+    "latitude": -23.64972,
+    "longitude": -47.57197
   },
   "telephone": "+55-15-99666-2831",
   "aggregateRating": {
@@ -47,7 +47,7 @@ export function Home() {
     },
     {
       question: "Onde fica o Escritório Freitas?",
-      answer: "Nosso escritório está localizado na Rua Maximiano Fidelis, 45, no Centro de Salto de Pirapora - SP."
+      answer: "Nosso escritório está localizado na Rua João de Góes, nº 117, no Centro de Salto de Pirapora - SP."
     },
     {
       question: "O escritório atende clientes de Sorocaba?",
@@ -423,10 +423,10 @@ export function Home() {
             </p>
             <div className="mb-10 font-gilroy text-brand-primary">
               <p className="font-medium mb-1">Endereço:</p>
-              <p className="text-brand-secondary">R. Maximiano Fidelis, 45 - Centro<br/>Salto de Pirapora - SP, 18160-041</p>
+              <p className="text-brand-secondary">Rua João de Góes, nº 117 - Centro<br/>Salto de Pirapora - SP, 18160-043</p>
             </div>
             <a 
-              href="https://goo.gl/maps/" // Using a generic link since the exact place ID isn't provided, client will update
+              href="https://www.google.com/maps/search/?api=1&query=Rua+Joao+de+Goes+117+Salto+de+Pirapora+SP"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block border border-brand-primary px-8 py-4 text-[13px] uppercase tracking-widest text-brand-primary hover:bg-brand-primary hover:text-brand-surface transition-colors duration-500"
@@ -437,7 +437,7 @@ export function Home() {
           
           <div className="w-full aspect-square lg:aspect-auto lg:h-[600px] bg-brand-surface border border-brand-primary/10 overflow-hidden">
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.7770857398183!2d-47.57685652467261!3d-23.648834464796347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c5f3408f9c1647%3A0xc32d1844a49c9527!2sR.%20Maximiano%20Fidelis%2C%2045%20-%20Centro%2C%20Salto%20de%20Pirapora%20-%20SP%2C%2018160-041!5e0!3m2!1spt-BR!2sbr!4v1714421111111!5m2!1spt-BR!2sbr" 
+              src="https://www.google.com/maps?q=Rua+Jo%C3%A3o+de+G%C3%B3es%2C+117+-+Centro%2C+Salto+de+Pirapora+-+SP%2C+18160-043&output=embed" 
               width="100%" 
               height="100%" 
               style={{ border: 0 }} 

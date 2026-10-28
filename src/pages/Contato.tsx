@@ -106,9 +106,9 @@ export function Contato() {
                 <div>
                   <strong className="block font-gilroy text-[11px] uppercase tracking-widest text-brand-secondary mb-2">Endereço</strong>
                   <p className="font-gilroy text-brand-primary">
-                    R. Maximiano Fidelis, 45 - Centro<br/>
+                    Rua João de Góes, nº 117 - Centro<br/>
                     Salto de Pirapora - SP<br/>
-                    18160-041
+                    18160-043
                   </p>
                 </div>
                 
@@ -138,7 +138,7 @@ export function Contato() {
 
           <div className="mt-20 w-full h-[400px] border border-brand-primary/10 overflow-hidden">
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.7770857398183!2d-47.57685652467261!3d-23.648834464796347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c5f3408f9c1647%3A0xc32d1844a49c9527!2sR.%20Maximiano%20Fidelis%2C%2045%20-%20Centro%2C%20Salto%20de%20Pirapora%20-%20SP%2C%2018160-041!5e0!3m2!1spt-BR!2sbr!4v1714421111111!5m2!1spt-BR!2sbr" 
+              src="https://www.google.com/maps?q=Rua+Jo%C3%A3o+de+G%C3%B3es%2C+117+-+Centro%2C+Salto+de+Pirapora+-+SP%2C+18160-043&output=embed" 
               width="100%" 
               height="100%" 
               style={{ border: 0 }} 
