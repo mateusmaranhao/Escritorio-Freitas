@@ -107,8 +107,7 @@ export function Contato() {
                   <strong className="block font-gilroy text-[11px] uppercase tracking-widest text-brand-secondary mb-2">Endereço</strong>
                   <p className="font-gilroy text-brand-primary">
                     Rua João de Góes, nº 117 - Centro<br/>
-                    Salto de Pirapora - SP<br/>
-                    18160-043
+                    Salto de Pirapora - SP
                   </p>
                 </div>
                 
@@ -138,7 +137,7 @@ export function Contato() {
 
           <div className="mt-20 w-full h-[400px] border border-brand-primary/10 overflow-hidden">
             <iframe 
-              src="https://www.google.com/maps?q=Rua+Jo%C3%A3o+de+G%C3%B3es%2C+117+-+Centro%2C+Salto+de+Pirapora+-+SP%2C+18160-043&output=embed" 
+              src="https://www.google.com/maps?q=Rua+Jo%C3%A3o+de+G%C3%B3es%2C+117+-+Centro%2C+Salto+de+Pirapora+-+SP&output=embed" 
               width="100%" 
               height="100%" 
               style={{ border: 0 }} 
