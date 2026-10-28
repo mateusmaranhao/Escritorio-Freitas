@@ -10,7 +10,7 @@ interface ServiceItem {
 
 const AREA_SERVICES: Record<string, { title: string; basePath: string; services: ServiceItem[] }> = {
   patronal: {
-    title: 'Direito Patronal',
+    title: 'Direito Trabalhista Empresarial',
     basePath: '/servicos/direito-patronal',
     services: [
       { name: 'Advocacia Preventiva e Consultoria Trabalhista', path: '/servicos/direito-patronal/advocacia-preventiva-consultoria-trabalhista' },
@@ -149,7 +149,7 @@ export function Footer() {
           <ul className="space-y-3 font-gilroy text-xs">
             <li>
               <Link to="/servicos/direito-patronal" className="text-brand-surface/80 hover:text-brand-surface transition-colors">
-                Direito Patronal
+                Direito Trabalhista Empresarial
               </Link>
             </li>
             <li>

@@ -168,7 +168,7 @@ export function DefesaAdministrativa() {
                 <span>/</span>
                 <Link to="/servicos" className="hover:text-brand-primary">Áreas de Atuação</Link>
                 <span>/</span>
-                <Link to="/servicos/direito-patronal" className="hover:text-brand-primary">Direito Patronal</Link>
+                <Link to="/servicos/direito-patronal" className="hover:text-brand-primary">Direito Trabalhista Empresarial</Link>
                 <span>/</span>
                 <span className="text-brand-primary font-semibold">Defesa Administrativa</span>
               </div>
@@ -237,7 +237,7 @@ export function DefesaAdministrativa() {
             <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/25 to-transparent"></div>
             <div className="absolute bottom-8 left-8 right-8 border border-white/20 p-6 backdrop-blur-md bg-black/40">
               <span className="text-[10px] font-gilroy uppercase tracking-[0.25em] text-white/70 block mb-1">
-                Direito Patronal Especializado
+                Direito Trabalhista Empresarial Especializado
               </span>
               <span className="font-poppins text-brand-surface text-lg font-semibold mb-1.5 block">
                 Segurança Regulatória & Solidez

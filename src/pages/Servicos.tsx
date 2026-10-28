@@ -6,7 +6,7 @@ export function Servicos() {
     <>
       <SEO 
         title="Áreas de Atuação Jurídica em Salto de Pirapora e Região | Escritório Freitas"
-        description="O Escritório Freitas — Advogados Associados atua de forma especializada em Direito Patronal, Direito Imobiliário e Direito Empresarial em Salto de Pirapora, Sorocaba e região."
+        description="O Escritório Freitas — Advogados Associados atua de forma especializada em Direito Trabalhista Empresarial, Direito Imobiliário e Direito Empresarial em Salto de Pirapora, Sorocaba e região."
         url="/servicos"
       />
       
@@ -25,11 +25,11 @@ export function Servicos() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-px bg-brand-primary/10">
-            {/* Direito Patronal */}
+            {/* Direito Trabalhista Empresarial */}
             <div className="bg-brand-surface p-10 lg:p-14 flex flex-col justify-between hover:bg-[#F9F9F9] transition-colors">
               <div>
                 <span className="text-[10px] font-gilroy uppercase tracking-[0.25em] text-[#6c7279] block mb-3">01 · Empresas & RH</span>
-                <h2 className="font-poppins text-2xl lg:text-3xl text-brand-primary mb-4">Direito Patronal</h2>
+                <h2 className="font-poppins text-2xl lg:text-3xl text-brand-primary mb-4">Direito Trabalhista Empresarial</h2>
                 <p className="font-gilroy text-brand-secondary leading-relaxed mb-8 text-sm sm:text-base">
                   Orientação jurídica trabalhista e defesa combativa exclusiva para empresas, empregadores e gestores.
                 </p>
@@ -43,7 +43,7 @@ export function Servicos() {
                 </div>
               </div>
               <Link to="/servicos/direito-patronal" className="inline-flex items-center gap-4 font-gilroy text-[13px] uppercase tracking-widest text-brand-primary hover:gap-6 transition-all duration-300">
-                Conhecer Direito Patronal <span className="text-xl">→</span>
+                Conhecer Direito Trabalhista Empresarial <span className="text-xl">→</span>
               </Link>
             </div>
 

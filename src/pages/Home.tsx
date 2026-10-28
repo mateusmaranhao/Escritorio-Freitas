@@ -43,7 +43,7 @@ export function Home() {
   const faqs = [
     {
       question: "Quais áreas do Direito o Escritório Freitas atende?",
-      answer: "Atuamos de forma estratégica em Direito Patronal, Direito Imobiliário e Direito Empresarial, focando em orientação preventiva, defesa técnica e segurança patrimonial para empresas, empregadores e condomínios."
+      answer: "Atuamos de forma estratégica em Direito Trabalhista Empresarial, Direito Imobiliário e Direito Empresarial, focando em orientação preventiva, defesa técnica e segurança patrimonial para empresas, empregadores e condomínios."
     },
     {
       question: "Onde fica o Escritório Freitas?",
@@ -63,7 +63,7 @@ export function Home() {
     <>
       <SEO 
         title="Escritório Freitas | Advocacia em Salto de Pirapora e Região"
-        description="Escritório Freitas — Advogados Associados. Advocacia em Salto de Pirapora, Sorocaba e região, com atuação estratégica em Direito Patronal, Direito Imobiliário e Direito Empresarial."
+        description="Escritório Freitas — Advogados Associados. Advocacia em Salto de Pirapora, Sorocaba e região, com atuação estratégica em Direito Trabalhista Empresarial, Direito Imobiliário e Direito Empresarial."
         url="/"
         schema={HomeSchema}
       />
@@ -82,7 +82,7 @@ export function Home() {
                 Proteção jurídica para quem constrói e lidera.
               </h1>
               <p className="font-gilroy text-base sm:text-lg text-[#555555] max-w-lg leading-relaxed mb-8 tracking-tight font-normal">
-                Especialistas na defesa de interesses empresariais e condominiais. Mais de uma década de rigor jurídico e parceria estratégica regional.
+                Especialistas na defesa de interesses de empresas, imobiliárias e condomínios. Mais de uma década de rigor jurídico e parceria estratégica regional.
               </p>
               <div className="flex items-center gap-6">
                 <div className="flex flex-col">
@@ -123,13 +123,13 @@ export function Home() {
         <div className="grid grid-cols-1 md:grid-cols-3 border-t border-[#333333]/10 divide-y md:divide-y-0 md:divide-x divide-[#333333]/10">
           <Link to="/servicos/direito-patronal" className="p-8 group cursor-pointer hover:bg-[#F9F9F9] transition-colors">
             <span className="text-[9px] uppercase tracking-widest text-[#555555] mb-3 block">01</span>
-            <h3 className="font-poppins text-xl mb-2 text-[#333333]">Direito Patronal</h3>
+            <h3 className="font-poppins text-xl mb-2 text-[#333333]">Direito Trabalhista Empresarial</h3>
             <p className="text-[10px] text-[#555555] uppercase tracking-wider">Prevenção de passivos e defesa corporativa</p>
           </Link>
           <Link to="/servicos/direito-imobiliario" className="p-8 group cursor-pointer hover:bg-[#F9F9F9] transition-colors">
             <span className="text-[9px] uppercase tracking-widest text-[#555555] mb-3 block">02</span>
             <h3 className="font-poppins text-xl mb-2 text-[#333333]">Direito Imobiliário</h3>
-            <p className="text-[10px] text-[#555555] uppercase tracking-wider">Gestão e relações condominiais</p>
+            <p className="text-[10px] text-[#555555] uppercase tracking-wider">Condomínios e imobiliárias</p>
           </Link>
           <Link to="/servicos/direito-empresarial" className="p-8 group cursor-pointer hover:bg-[#F9F9F9] transition-colors">
             <span className="text-[9px] uppercase tracking-widest text-[#555555] mb-3 block">03</span>
@@ -252,17 +252,17 @@ export function Home() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-px bg-brand-primary/10">
-            {/* Bloco 1 — Direito Patronal */}
+            {/* Bloco 1 — Direito Trabalhista Empresarial */}
             <div className="bg-brand-surface p-10 lg:p-14 group hover:bg-black/5 transition-colors duration-500 flex flex-col justify-between">
               <div>
                 <span className="text-[10px] font-gilroy uppercase tracking-[0.25em] text-[#6c7279] block mb-3">01 · Empresas & RH</span>
-                <h4 className="font-poppins text-2xl lg:text-3xl text-brand-primary mb-4">Direito Patronal</h4>
+                <h4 className="font-poppins text-2xl lg:text-3xl text-brand-primary mb-4">Direito Trabalhista Empresarial</h4>
                 <p className="font-gilroy text-brand-secondary leading-relaxed mb-12 text-sm sm:text-base">
                   Orientação jurídica preventiva para relações de trabalho corporativas, mitigação de passivos e defesa combativa exclusiva para empresas perante a Justiça do Trabalho.
                 </p>
               </div>
               <Link to="/servicos/direito-patronal" className="inline-flex items-center gap-4 font-gilroy text-[13px] uppercase tracking-widest text-brand-primary group-hover:gap-6 transition-all duration-300">
-                Conhecer Direito Patronal <span className="text-xl">→</span>
+                Conhecer Direito Trabalhista Empresarial <span className="text-xl">→</span>
               </Link>
             </div>
             

@@ -28,7 +28,7 @@ export function Header() {
   ];
 
   const serviceLinks = [
-    { name: 'Direito Patronal', path: '/servicos/direito-patronal' },
+    { name: 'Direito Trabalhista Empresarial', path: '/servicos/direito-patronal' },
     { name: 'Direito Imobiliário', path: '/servicos/direito-imobiliario' },
     { name: 'Direito Empresarial', path: '/servicos/direito-empresarial' },
     { name: 'Ver todos os serviços', path: '/servicos' },

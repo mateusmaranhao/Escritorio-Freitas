@@ -32,7 +32,7 @@ export function DireitoPatronal() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "Service",
-    "name": "Direito Patronal em Salto de Pirapora e Região | Escritório Freitas",
+    "name": "Direito Trabalhista Empresarial em Salto de Pirapora e Região | Escritório Freitas",
     "provider": {
       "@type": "LegalService",
       "name": "Escritório Freitas: Advogados Associados",
@@ -47,15 +47,15 @@ export function DireitoPatronal() {
       "telephone": "+55 15 99666-2831"
     },
     "areaServed": ["Salto de Pirapora", "Sorocaba", "Votorantim", "Araçoiaba da Serra", "Região Metropolitana de Sorocaba"],
-    "serviceType": "Direito Trabalhista Patronal, Compliance Trabalhista e Defesa de Empresas",
-    "description": "Assessoria jurídica trabalhista patronal para empresas e empregadores. Auditoria preventiva, redução de passivos, rescisões estratégicas e defesa combativa perante a Justiça do Trabalho.",
+    "serviceType": "Direito Trabalhista Empresarial, Compliance Trabalhista e Defesa de Empresas",
+    "description": "Assessoria jurídica em Direito Trabalhista Empresarial para empresas e empregadores. Auditoria preventiva, redução de passivos, rescisões estratégicas e defesa combativa perante a Justiça do Trabalho.",
     "url": "https://escritoriofreitas.com.br/servicos/direito-patronal"
   };
 
   const faqs = [
     {
-      question: "O que é o Direito Patronal e para quem ele é indicado?",
-      answer: "O Direito Patronal é o ramo da advocacia trabalhista dedicado exclusivamente à defesa dos interesses de empregadores, empresas, indústrias, comércios e gestores. Seu foco é blindar a operação contra passivos trabalhistas, orientar contratações e demissões seguras, adequar rotinas de RH à CLT e defender a empresa com vigor técnico em qualquer reclamação judicial ou fiscalização do Ministério do Trabalho."
+      question: "O que é o Direito Trabalhista Empresarial e para quem ele é indicado?",
+      answer: "O Direito Trabalhista Empresarial é o ramo da advocacia trabalhista dedicado exclusivamente à defesa dos interesses de empregadores, empresas, indústrias, comércios e gestores. Seu foco é blindar a operação contra passivos trabalhistas, orientar contratações e demissões seguras, adequar rotinas de RH à CLT e defender a empresa com vigor técnico em qualquer reclamação judicial ou fiscalização do Ministério do Trabalho."
     },
     {
       question: "Por que investir em assessoria preventiva custa muito menos do que defender processos judiciais?",
@@ -147,13 +147,13 @@ export function DireitoPatronal() {
   return (
     <>
       <SEO 
-        title="Advogado Trabalhista Patronal em Salto de Pirapora e Sorocaba | Escritório Freitas"
-        description="Advocacia em Direito Patronal para empresas e empregadores. Auditoria preventiva, redução de passivos trabalhistas, contratos e defesa contenciosa especializada."
+        title="Advogado Trabalhista Empresarial em Salto de Pirapora e Sorocaba | Escritório Freitas"
+        description="Advocacia em Direito Trabalhista Empresarial para empresas e empregadores. Auditoria preventiva, redução de passivos trabalhistas, contratos e defesa contenciosa especializada."
         url="/servicos/direito-patronal"
         schema={schema}
       />
 
-      {/* 1. HERO — ESPECÍFICA PARA DIREITO PATRONAL */}
+      {/* 1. HERO — ESPECÍFICA PARA DIREITO TRABALHISTA EMPRESARIAL */}
       <section className="relative flex flex-col bg-brand-surface border-b border-[#333333]/10">
         <div className="flex-1 grid grid-cols-1 lg:grid-cols-12 gap-0 relative">
           <div className="lg:col-span-7 flex flex-col justify-center px-6 pt-6 pb-10 sm:pt-8 sm:pb-12 lg:py-12 lg:px-12 lg:pl-16 xl:pl-20">
@@ -168,7 +168,7 @@ export function DireitoPatronal() {
                 <span>/</span>
                 <Link to="/servicos" className="hover:text-brand-primary">Serviços</Link>
                 <span>/</span>
-                <span className="text-brand-primary font-semibold">Direito Patronal</span>
+                <span className="text-brand-primary font-semibold">Direito Trabalhista Empresarial</span>
               </div>
 
               <h1 className="font-poppins text-2xl sm:text-3xl md:text-4xl lg:text-[40px] text-[#333333] font-semibold leading-[1.2] mb-3.5 max-w-2xl tracking-tight">
@@ -182,13 +182,13 @@ export function DireitoPatronal() {
               {/* Botões de Ação na Hero */}
               <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-4 mb-8">
                 <a 
-                  href="https://wa.me/5515996662831?text=Ol%C3%A1%2C%20gostaria%20de%20uma%20orienta%C3%A7%C3%A3o%20em%20Direito%20Patronal%20para%20minha%20empresa."
+                  href="https://wa.me/5515996662831?text=Ol%C3%A1%2C%20gostaria%20de%20uma%20orienta%C3%A7%C3%A3o%20em%20Direito%20Trabalhista%20Empresarial%20para%20minha%20empresa."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex justify-center items-center gap-2.5 bg-brand-primary text-brand-surface font-gilroy text-xs uppercase tracking-widest px-6 py-3.5 hover:bg-black transition-colors duration-300"
                 >
                   <MessageSquare className="w-4 h-4" />
-                  <span>Falar com Advogado Patronal</span>
+                  <span>Falar com Advogado Trabalhista Empresarial</span>
                 </a>
                 <a 
                   href="#como-funciona"
@@ -199,7 +199,7 @@ export function DireitoPatronal() {
                 </a>
               </div>
 
-              {/* Indicadores Específicos de Direito Patronal */}
+              {/* Indicadores Específicos de Direito Trabalhista Empresarial */}
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-5 border-t border-[#333333]/10">
                 <div className="flex items-start gap-2.5">
                   <ShieldCheck className="w-4 h-4 text-brand-primary shrink-0 mt-0.5" />
@@ -440,7 +440,7 @@ export function DireitoPatronal() {
               Dúvidas Recorrentes de Empregadores
             </span>
             <h2 className="font-poppins text-3xl md:text-5xl text-brand-primary mb-4">
-              Perguntas frequentes sobre Direito Patronal
+              Perguntas frequentes sobre Direito Trabalhista Empresarial
             </h2>
             <p className="font-gilroy text-brand-secondary text-base">
               Esclareça como estruturamos a proteção jurídica para o seu negócio.

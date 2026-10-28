@@ -164,7 +164,7 @@ export function RelacoesSindicais() {
                 <span>/</span>
                 <Link to="/servicos" className="hover:text-brand-primary">Áreas de Atuação</Link>
                 <span>/</span>
-                <Link to="/servicos/direito-patronal" className="hover:text-brand-primary">Direito Patronal</Link>
+                <Link to="/servicos/direito-patronal" className="hover:text-brand-primary">Direito Trabalhista Empresarial</Link>
                 <span>/</span>
                 <span className="text-brand-primary font-semibold">Relações Sindicais</span>
               </div>
@@ -473,7 +473,7 @@ export function RelacoesSindicais() {
             Precisa negociar com o sindicato ou enfrentar uma greve iminente?
           </h2>
           <p className="font-gilroy text-lg text-brand-surface/80 max-w-2xl mx-auto mb-10 leading-relaxed">
-            Consulte nossa equipe especializada em Direito Patronal em Salto de Pirapora e Sorocaba para construir acordos sólidos e proteger a operação da sua empresa.
+            Consulte nossa equipe especializada em Direito Trabalhista Empresarial em Salto de Pirapora e Sorocaba para construir acordos sólidos e proteger a operação da sua empresa.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

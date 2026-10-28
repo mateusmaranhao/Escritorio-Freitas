@@ -13,7 +13,7 @@ import { DireitoPatronal } from './pages/DireitoPatronal';
 import { DireitoImobiliario } from './pages/DireitoImobiliario';
 import { DireitoEmpresarial } from './pages/DireitoEmpresarial';
 
-// Páginas de Serviços - Direito Patronal
+// Páginas de Serviços - Direito Trabalhista Empresarial
 import { AdvocaciaPreventiva } from './pages/AdvocaciaPreventiva';
 import { AdvocaciaContenciosa } from './pages/AdvocaciaContenciosa';
 import { RelacoesSindicais } from './pages/RelacoesSindicais';
@@ -51,10 +51,11 @@ export default function App() {
             
             {/* Áreas de Atuação Principais */}
             <Route path="servicos/direito-patronal" element={<DireitoPatronal />} />
+            <Route path="servicos/direito-trabalhista-empresarial" element={<DireitoPatronal />} />
             <Route path="servicos/direito-empresarial" element={<DireitoEmpresarial />} />
             <Route path="servicos/direito-imobiliario" element={<DireitoImobiliario />} />
 
-            {/* Serviços Específicos - Direito Patronal */}
+            {/* Serviços Específicos - Direito Trabalhista Empresarial */}
             <Route path="servicos/direito-patronal/advocacia-preventiva-consultoria-trabalhista" element={<AdvocaciaPreventiva />} />
             <Route path="servicos/direito-patronal/advocacia-contenciosa" element={<AdvocaciaContenciosa />} />
             <Route path="servicos/direito-patronal/relacoes-sindicais" element={<RelacoesSindicais />} />

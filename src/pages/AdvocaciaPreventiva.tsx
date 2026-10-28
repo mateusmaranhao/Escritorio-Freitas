@@ -165,7 +165,7 @@ export function AdvocaciaPreventiva() {
                 <span>/</span>
                 <Link to="/servicos" className="hover:text-brand-primary">Áreas de Atuação</Link>
                 <span>/</span>
-                <Link to="/servicos/direito-patronal" className="hover:text-brand-primary">Direito Patronal</Link>
+                <Link to="/servicos/direito-patronal" className="hover:text-brand-primary">Direito Trabalhista Empresarial</Link>
                 <span>/</span>
                 <span className="text-brand-primary font-semibold">Advocacia Preventiva</span>
               </div>
