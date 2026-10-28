@@ -423,7 +423,7 @@ export function Home() {
             </p>
             <div className="mb-10 font-gilroy text-brand-primary">
               <p className="font-medium mb-1">Endereço:</p>
-              <p className="text-brand-secondary">Rua João de Góes, nº 117 - Centro<br/>Salto de Pirapora - SP</p>
+              <p className="text-brand-secondary">Rua João de Góes, nº 117 - Centro<br/>Salto de Pirapora - SP, 18160-043</p>
             </div>
             <a 
               href="https://www.google.com/maps/search/?api=1&query=Rua+Joao+de+Goes+117+Salto+de+Pirapora+SP"
@@ -437,7 +437,7 @@ export function Home() {
           
           <div className="w-full aspect-square lg:aspect-auto lg:h-[600px] bg-brand-surface border border-brand-primary/10 overflow-hidden">
             <iframe 
-              src="https://www.google.com/maps?q=Rua+Jo%C3%A3o+de+G%C3%B3es%2C+117+-+Centro%2C+Salto+de+Pirapora+-+SP&output=embed" 
+              src="https://www.google.com/maps?q=Rua+Jo%C3%A3o+de+G%C3%B3es%2C+117+-+Centro%2C+Salto+de+Pirapora+-+SP%2C+18160-043&output=embed" 
               width="100%" 
               height="100%" 
               style={{ border: 0 }} 

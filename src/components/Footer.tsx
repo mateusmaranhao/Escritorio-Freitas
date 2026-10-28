@@ -98,7 +98,7 @@ export function Footer() {
           </Link>
           <p className="font-gilroy text-xs text-brand-surface/60 leading-relaxed pt-2">
             Rua João de Góes, nº 117 - Centro<br />
-            Salto de Pirapora - SP
+            Salto de Pirapora - SP, 18160-043
           </p>
           <p className="font-gilroy text-xs text-brand-surface/60 leading-relaxed">
             WhatsApp: (15) 99666-2831<br />
